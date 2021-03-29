@@ -1,0 +1,79 @@
+.container-parent {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.topnav {
+  background-color: #660000;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #990000;
+  color: black;
+}
+.topnav a.active {
+  background-color: #663300;
+  color: white;
+}
+.topnav {
+  width: 100%;
+  overflow: auto;
+}
+body, html {
+  height: 100%;
+  background-image: url('arriereimage.png');
+}
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table {
+  width: 40%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #888;
+}
+h3 {
+	text-align: center;
+	background-color : gray;
+	color: black;
+}
+
+.container-tweet {
+  text-align: right;
+  margin-right: 10%; 
+
+}
+
+.logos_droites 
+{
+  text-align: right;
+  margin-right: 5%; 
+
+}
+
+.CV
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+}
+
+.TweetBox
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.images {  width: 25% }
